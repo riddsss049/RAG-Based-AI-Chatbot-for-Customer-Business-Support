@@ -8,50 +8,50 @@ The chatbot reduces hallucinations by grounding responses in company-specific da
 
 # 🎯 Key Features
 
-RAG architecture for factual responses
+- RAG architecture for factual responses
 
-Semantic search using vector embeddings
+- Semantic search using vector embeddings
 
-Context-aware question answering
+- Context-aware question answering
 
-Reduced hallucinations via document grounding
+- Reduced hallucinations via document grounding
 
-Modular and scalable design
+- Modular and scalable design
 
-Interactive chat interface
+- Interactive chat interface
 
 # 🛠 Tech Stack
 
-Python
+- Python
 
-Large Language Models (LLMs)
+- Large Language Models (LLMs)
 
-Vector Database (Firestudio DB)
+- Vector Database (Firestudio DB)
 
-LangChain / Custom RAG pipeline
+- LangChain / Custom RAG pipeline
 
-Flask (UI)
+- Flask (UI)
 
 # 🧠 How It Works
 
-User asks a question via the chatbot UI
+- User asks a question via the chatbot UI
 
-Query is converted into vector embeddings
+- Query is converted into vector embeddings
 
-Relevant documents are retrieved from the vector database
+- Relevant documents are retrieved from the vector database
 
-Retrieved context is passed to the LLM
+- Retrieved context is passed to the LLM
 
-LLM generates a grounded, accurate response
+- LLM generates a grounded, accurate response
 
 <img width="1516" height="902" alt="image" src="https://github.com/user-attachments/assets/1cb52fe7-cc39-49b2-a7f9-f800b421ff11" />
 
 # 🚀 Use Cases
 
-Customer support automation
+- Customer support automation
 
-Internal business knowledge assistant
+- Internal business knowledge assistant
 
-Service and maintenance query handling
+- Service and maintenance query handling
 
-Faster access to company information
+- Faster access to company information
