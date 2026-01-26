@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JMD Pools Chatbot</title>
+    <style>
+        body { font-family: Arial; background:#f4f4f4; }
+        #chat { width: 60%; margin: auto; background:white; padding:20px; height:70vh; overflow-y:auto; border-radius:10px;}
+        .bot { color: blue; margin:10px 0; }
+        .user { color: green; margin:10px 0; text-align:right;}
+        #inputBox { width:60%; margin:auto; display:flex; gap:10px;}
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">🤖 JMD Pools AI Assistant</h2>
+    <div id="chat"></div>
+
+    <div id="inputBox">
+        <input id="msg" placeholder="Type your message..." style="flex:1;padding:10px;">
+        <button onclick="send()">Send</button>
+    </div>
+
+<script>
+async function send() {
+    let text = document.getElementById("msg").value;
+    if(!text) return;
+
+    let chat = document.getElementById("chat");
+    chat.innerHTML += `<p class="user">${text}</p>`
+
+    document.getElementById("msg").value="";
+
+    let res = await fetch("/chat/message", {
+        method:"POST",
+        headers:{ "Content-Type":"application/json" },
+        body: JSON.stringify({ message: text })
+    });
+
+    let data = await res.json();
+    chat.innerHTML += `<p class="bot">${data.reply}</p>`
+}
+</script>
+</body>
+</html>
