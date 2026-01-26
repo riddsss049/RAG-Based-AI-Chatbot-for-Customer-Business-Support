@@ -1,0 +1,16 @@
+.chat-container{
+width:400px;
+margin:auto;
+margin-top:50px;
+border:1px solid #ddd;
+padding:20px;
+border-radius:10px;
+font-family:Arial;
+.bot-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+}
