@@ -1,0 +1,43 @@
+[
+  {
+    "category": "Company Introduction",
+    "source": "https://jmdpools.in/about-us/",
+    "content": "JMD Pools is a leading swimming pool construction and maintenance company providing world-class pool design, development, installation and services across India."
+  },
+  {
+    "category": "Fiberglass Pools",
+    "source": "https://jmdpools.in/fiberglass-pools/",
+    "content": "JMD Pools offers premium fiberglass swimming pools which are durable, quick to install, low maintenance and come in modern designs. Ideal for residential and commercial properties."
+  },
+  {
+    "category": "Concrete Pools",
+    "source": "https://jmdpools.in/concrete-pools/",
+    "content": "Concrete swimming pools by JMD Pools are designed to be long-lasting, customizable and structurally strong. Suitable for villas, resorts, hotels and luxury properties."
+  },
+  {
+    "category": "Pool Maintenance & AMC",
+    "source": "https://jmdpools.in/pool-maintenance/",
+    "content": "JMD Pools provides full swimming pool maintenance services including cleaning, repairs, AMC support and crystal-clear water care solutions."
+  },
+  {
+    "category": "Consultation & Booking",
+    "source": "https://jmdpools.in/contact-us/",
+    "content": "Customers can contact JMD Pools for pricing, brochures, pool designs, consultation and installation support via call, WhatsApp or website enquiry."
+  },
+  {
+    "category": "Pricing",
+    "content": "JMD Pools pricing depends on size, depth, material (concrete / fiberglass / vinyl), filtration technology, site prep requirements. Typical starting range ₹3 Lakhs to ₹25 Lakhs depending on customization.",
+    "source": "https://jmdpools.in/pricing/"
+  },
+  {
+    "category": "Installation Timeline",
+    "content": "Standard pool construction time 20-45 days depending on site conditions, design complexity and approvals.",
+    "source": "https://jmdpools.in/installation-timeline/"
+  },
+  {
+    "category": "Warranty",
+    "content": "JMD Pools offers long-term structural warranty along with warranty for filtration equipment. Warranty details vary by pool type.",
+    "source": "https://jmdpools.in/warranty/"
+  }
+
+]
