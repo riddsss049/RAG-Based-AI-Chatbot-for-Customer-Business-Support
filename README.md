@@ -30,7 +30,7 @@ The chatbot reduces hallucinations by grounding responses in company-specific da
 
 - LangChain / Custom RAG pipeline
 
-- Flask (UI)
+- Streamlit (UI)
 
 # 🧠 How It Works
 
