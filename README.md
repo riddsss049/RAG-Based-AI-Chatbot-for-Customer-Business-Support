@@ -26,7 +26,7 @@ The chatbot reduces hallucinations by grounding responses in company-specific da
 
 - Large Language Models (LLMs)
 
-- Vector Database (Firestudio DB)
+- Vector Database (Firestore DB)
 
 - LangChain / Custom RAG pipeline
 
